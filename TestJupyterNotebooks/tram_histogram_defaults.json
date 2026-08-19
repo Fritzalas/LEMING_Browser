@@ -1,0 +1,28 @@
+{
+  "tram": {
+    "default": {
+      "bins": 40,
+      "range": [0.5, 40.5]
+    },
+    "prefixes": {
+      "edep_": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      }
+    },
+    "quantities": {
+      "Y2L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+       "StraightTimeZ1L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "StraightTimeZ1R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      }
+    }
+  }
+}

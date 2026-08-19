@@ -1,0 +1,24 @@
+{
+  "loaf": {
+    "default": {
+      "bins": 40,
+      "range": [0.5, 40.5]
+    },
+    "prefixes": {
+      "tC": {
+        "bins": 100,
+        "range": [-1000.0, 1000.0]
+      }
+    },
+    "quantities": {
+      "pileupType": {
+        "bins": 10,
+        "range": [0.5, 10.5]
+      },
+      "hasPileup": {
+        "bins": 2,
+        "range": [-0.5, 1.5]
+      }
+    }
+  }
+}
