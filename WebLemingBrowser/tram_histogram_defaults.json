@@ -1,0 +1,373 @@
+{
+  "tram": {
+    "prefixes": {
+      "edep_": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "tC": {
+        "bins": 100,
+        "range": [-1000.0, 1000.0]
+      }
+    },
+
+    "quantities": {
+      "pileupType": {
+        "bins": 10,
+        "range": [0.5, 10.5]
+      },
+      "hasPileup": {
+        "bins": 2,
+        "range": [-0.5, 1.5]
+      },
+      "hasMuonEntranceHit": {
+        "bins": 2,
+        "range": [-0.5, 1.5]
+      },
+      "isTimingEvent": {
+        "bins": 2,
+        "range": [-0.5, 1.5]
+      },
+      "hasAtomicHit": {
+        "bins": 2,
+        "range": [-0.5, 1.5]
+      },
+
+      "Y1L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Y1R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Y2L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Y2R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Z1L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Z1R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Z2L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "Z2R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+
+      "time_y1L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_y1R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_y2L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_y2R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_z1L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_z1R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_z2L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "time_z2R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+
+      "edep_y1L": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_y1R": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_y2L": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_y2R": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_z1L": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_z1R": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_z2L": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "edep_z2R": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+
+      "MuonEntranceTime": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "MuonEntranceEnergy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "TriggerLEnergy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "TriggerREnergy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "TriggerLTime": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "TriggerRTime": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "NIM_MU_Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "NIM_MU_Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "VetoTime": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "VetoEnergy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "LN1Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "LN1Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "LN2Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "LN2Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "LN3Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "LN3Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "LF1Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "LF1Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "LF2Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "LF2Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "LF3Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "LF3Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "RN1Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "RN1Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "RN2Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "RN2Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "RN3Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "RN3Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "RF1Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "RF1Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "RF2Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "RF2Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "RF3Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "RF3Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "AtomicTime": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "AtomicDriftTime": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "AtomicEnergy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "C61Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "C61Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "C62Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "C62Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+      "C63Time": {
+        "bins": 20000,
+        "range": [-10000, 10000]
+      },
+      "C63Energy": {
+        "bins": 4096,
+        "range": [0.0, 4096]
+      },
+
+      "StraightZ1L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "StraightZ2L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "StraightY1L": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "StraightTimeZ1L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "StraightTimeZ2L": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "StraightEdepZ1L": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "StraightEdepZ2L": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+
+      "StraightZ1R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "StraightZ2R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "StraightY1R": {
+        "bins": 40,
+        "range": [0.5, 40.5]
+      },
+      "StraightTimeZ1R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "StraightTimeZ2R": {
+        "bins": 2000,
+        "range": [-10000, 10000]
+      },
+      "StraightEdepZ1R": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      },
+      "StraightEdepZ2R": {
+        "bins": 100,
+        "range": [0.0, 1000.0]
+      }
+    }
+  }
+}
